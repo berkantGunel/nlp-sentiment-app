@@ -1,0 +1,26 @@
+# Python cache ve derleme dosyaları
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment klasörleri
+venv/
+.env/
+.venv/
+
+# Jupyter checkpoint'leri
+.ipynb_checkpoints/
+
+# Veri ve model dosyaları
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# IDE dosyaları
+.vscode/
+.idea/
+
+# OS gereksiz dosyalar
+.DS_Store
+Thumbs.db
